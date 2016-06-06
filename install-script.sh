@@ -8,6 +8,9 @@ fi
      
 echo -e "Starting my post-OS installation script...\n"
 
+echo -e "\n#==> System upgrade..."
+dnf -y upgrade
+
 echo -e "\n#==> Installing Graphical applications..."
 # Graphical
 dnf -y install tmux thunderbird firefox thunar vlc xfce4-terminal
