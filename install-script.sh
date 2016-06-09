@@ -17,7 +17,7 @@ dnf -y install tmux thunderbird firefox thunar vlc xfce4-terminal libreoffice gi
 
 echo -e "\n#==> Installing Non-Graphical applications..."
 # Non-Graphical
-dnf -y install vim git python php nmap figlet
+dnf -y install vim git python php nmap figlet mc
 
 echo -e "\n#==> Installing PIP applications..."
 pip install pyradio 
