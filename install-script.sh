@@ -1,11 +1,14 @@
 #!/bin/bash
 runlevel=$(id -u)
+kernel=$(uname -r)
 
 if [ $runlevel != "0" ]; then
     echo "We need root!" >&2
     exit 1
 fi
-     
+    
+clear
+echo -e "Detected kernel: ${kernel}"
 echo -e "Starting my post-OS installation script...\n"
 
 echo -e "\n#==> System upgrade..."
