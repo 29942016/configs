@@ -26,4 +26,12 @@ echo -e "\n#==> Installing Group packages..."
 # Groups
 dnf -y groupinstall "C Development Tools and Libraries" "Administration Tools" "Development Tools"
 
+#Fonts
+echo -e "\n#==> Installing fonts..."
+dnf -y install google-droid-*-fonts
+
+#Configs
+echo -e "\n#==> Installing my custom rpms..."
+#rpm -ivh 
+
 echo -e "\n#==> All finished!"
