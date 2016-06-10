@@ -35,9 +35,9 @@ dnf -y install google-droid-*-fonts
 
 #Configs
 echo -e "\n#==> Installing my custom rpms..."
-rpm -ivh "https://github.com/Oliver-Buckler/my-config/blob/master/rpms/cmatrix-1.0-1.x86_64.rpm?raw=true"
-rpm -ivh "https://github.com/Oliver-Buckler/my-config/blob/master/rpms/xflux-1.0-1.x86_64.rpm?raw=true"
-rpm -ivh "https://github.com/Oliver-Buckler/my-config/blob/master/rpms/skype-4.3.fedora.i586.rpm?raw=true"
+rpm -ivh "https://github.com/Oliver-Buckler/configs/blob/master/rpms/cmatrix-1.0-1.x86_64.rpm?raw=true"
+rpm -ivh "https://github.com/Oliver-Buckler/configs/blob/master/rpms/xflux-1.0-1.x86_64.rpm?raw=true"
+rpm -ivh "https://github.com/Oliver-Buckler/configs/blob/master/rpms/skype-4.3.fedora.i586.rpm?raw=true"
 
 echo -e "\n#==> All finished!"
 
