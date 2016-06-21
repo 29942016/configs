@@ -16,7 +16,7 @@ dnf -y upgrade
 
 echo -e "\n#==> Installing Graphical applications..."
 # Graphical
-dnf -y install tmux thunderbird firefox thunar vlc xfce4-terminal libreoffice gimp
+dnf -y install tmux thunderbird firefox thunar vlc xfce4-terminal libreoffice gimp pinta
 
 echo -e "\n#==> Installing Non-Graphical applications..."
 # Non-Graphical
