@@ -1,0 +1,29 @@
+PS1="[\[$(tput sgr0)\]\[\033[38;5;1m\]\u\[$(tput sgr0)\]\[\033[38;5;15m\]@\[$(tput sgr0)\]\[\033[38;5;1m\]\h\[$(tput sgr0)\]\[\033[38;5;15m\]] [\[$(tput sgr0)\]\[\033[38;5;40m\]\w\[$(tput sgr0)\]\[\033[38;5;15m\]] > \[$(tput sgr0)\]"
+
+#Navigation
+alias ll="ls -l --color"
+alias p="pwd"
+alias ls="ls --color"
+alias ipa="ipconfig"
+# Applications
+alias vs="nohup /C:/Program\ Files\ \(x86\)/Microsoft\ Visual\ Studio\ 12.0/Common7/IDE/devenv.exe > /dev/null 2>&1"
+alias visualstudio="nohup /C:/Program\ Files\ \(x86\)/Microsoft\ Visual\ Studio\ 12.0/Common7/IDE/devenv.exe > /dev/null > 2>&1"
+alias chrome="echo -e '\nStarting Google Chrome.\n'; nohup /C:/Program\ Files\ \(x86\)/Google/Chrome/Application/chrome.exe & > /dev/null 2>&1"
+# Custom scripts
+
+
+# Software
+alias fnmap="/cygdrive/c/Program\ Files\ \(x86\)/Nmap/nmap.exe"
+alias fncat="/cygdrive/c/Program\ Files\ \(x86\)/Nmap/ncat.exe"
+
+# Scripts and commands
+alias fbackup="~/backupSims.sh"
+alias fkillInspect="ps -W | grep Inspect | xargs kill -f"
+alias fmagicStrings="grep -r '\[\"' | grep -v 'Node\|Binary file\|.svn\|Settings.Designer'"
+alias fbuildDll="~/build.sh"
+alias fclearcache="~/clearcache.sh"
+alias fCompileSims="~/innoCompile.sh"
+alias fProbeDb="~/probeSimsDb.sh"
+
+
+
